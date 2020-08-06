@@ -17,8 +17,8 @@ RUN add-apt-repository -y ppa:bladerf/bladerf && \
 # Install GNURadio and GQRX from PPA
 # TODO: Install both from source so we can be more portable.
 #RUN apt-get -y install gqrx-sdr
-RUN apt-get -y install gnuradio-dev gr-osmosdr
-RUN apt-get -y install libosmosdr-dev gqrx-sdr soapysdr-tools soapysdr-module-lms7
+#RUN apt-get -y install gnuradio-dev gr-osmosdr
+RUN apt-get -y install gqrx-sdr soapysdr-tools soapysdr-module-lms7
 
 
 # Build deps
